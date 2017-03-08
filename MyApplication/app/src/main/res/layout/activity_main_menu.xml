@@ -15,18 +15,34 @@
 
     <Button
         android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="View Calender"
         android:id="@+id/calenderButton"
+        android:text="Calendar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
         />
+
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Add Classes"
         android:layout_gravity="center"
         android:id="@+id/coursesButton"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="100dip"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
         />
 
 <LinearLayout
@@ -39,7 +55,7 @@
         <TextView
             android:id="@+id/telephone"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:padding="5dp"
             android:drawableLeft="@android:drawable/ic_input_add"
@@ -47,19 +63,39 @@
 
 
 
+
     <Button
         android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Add New Event"
-        android:id="@+id/addEventButton"
-        />
-    <Button
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Add New Task"
         android:id="@+id/addTaskButton"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dip"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape2"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:text="Add New Event"
+        android:id="@+id/addEventButton"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dip"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape2"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
         />
 </LinearLayout>
 

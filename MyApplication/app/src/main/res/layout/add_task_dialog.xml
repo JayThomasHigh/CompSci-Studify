@@ -62,14 +62,18 @@
 
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
         android:text="select date"
         android:onClick="showDatePickerDialog"
         android:id="@+id/datePicker"
         android:layout_below="@+id/desc_nameID"
         android:layout_toRightOf="@+id/task_info"
-        android:layout_toEndOf="@+id/task_info" />
+        android:layout_toEndOf="@+id/task_info"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape2"/>
 
     <EditText
         android:layout_width="wrap_content"
