@@ -18,7 +18,7 @@ public class CalendarPage extends AppCompatActivity {
     Button datePickerButton;
     PriorityAdapter calendarAdapter;
     static String date = "3/2/2017";
-    CalendarPage page;
+    static CalendarPage page;
 
 
     @Override

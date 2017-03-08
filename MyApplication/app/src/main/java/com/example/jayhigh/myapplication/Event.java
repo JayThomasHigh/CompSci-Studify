@@ -18,5 +18,9 @@ public class Event extends Priority {
         this.endTime = endTime;
     }
 
+    public String getFormattedTime(){
+        return startTime + "-" + endTime;
+    }
+
 
 }
