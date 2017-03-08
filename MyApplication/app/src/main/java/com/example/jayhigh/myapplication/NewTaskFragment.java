@@ -62,7 +62,7 @@ public class NewTaskFragment extends DialogFragment {
 
 
 
-        Button submit = (Button) v.findViewById(R.id.ok_butt);
+        Button submit = (Button) v.findViewById(R.id.submitButton);
         submit.setOnClickListener(new Button.OnClickListener(){
 
             @Override
