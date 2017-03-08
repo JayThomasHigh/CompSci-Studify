@@ -52,14 +52,14 @@
     android:layout_gravity="center_horizontal">
 
 
-        <TextView
+   <!--     <TextView
             android:id="@+id/telephone"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
             android:padding="5dp"
             android:drawableLeft="@android:drawable/ic_input_add"
-            android:text="CS Courses" />
+            android:text="CS Courses" />  -->
 
 
 
@@ -67,6 +67,7 @@
     <Button
         android:layout_gravity="center"
         android:text="Add New Task"
+        android:layout_marginLeft="5dp"
         android:id="@+id/addTaskButton"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="50dip"

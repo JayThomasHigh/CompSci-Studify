@@ -25,11 +25,11 @@
             android:layout_marginTop="22dp"
             android:textColor="#B5D96D"
             android:textSize="40sp"
-            ></TextView>
+            />
 
         <TextView
             android:text="Name"
-            android:textSize="25dip"
+            android:textSize="25sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/event_name"
@@ -37,11 +37,11 @@
 
         <TextView
             android:text="Description"
-            android:textSize="15dip"
+            android:textSize="15sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/event_description"
-            android:textColor=="#000000"/>
+            android:textColor="#000000"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
